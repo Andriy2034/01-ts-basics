@@ -1,4 +1,4 @@
-function PrintUserInfo(name: string, age: number, email?: string): void {
+function printUserInfo(name: string, age: number, email?: string): void {
     console.log("Name:", name);
     console.log("Age:", age);
     if (email) {
@@ -6,5 +6,5 @@ function PrintUserInfo(name: string, age: number, email?: string): void {
     }
 }
 
-PrintUserInfo("Alice", 30);
-PrintUserInfo("Bob", 25, "bob@mail.com");
+printUserInfo("Alice", 30);
+printUserInfo("Bob", 25, "bob@mail.com");
