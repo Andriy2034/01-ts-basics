@@ -5,4 +5,4 @@ const isonline: boolean = true;
 
 console.log(`Name: ${name}`);
 console.log(`Age: ${age}`);
-console.log(`Is Online: ${isonline}`);
+console.log(`Online: ${isonline}`);
